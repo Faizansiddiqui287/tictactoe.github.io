@@ -1,0 +1,84 @@
+body{
+    background-color: #14bcab;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+    text-align: center;
+    margin: 30px;
+}
+
+td{
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #f7cac9;
+    border-radius: 20px;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    left: 45%;
+    margin-top: 30px;
+    margin-left: -155px;
+    top: 50px;
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:first-child{
+    border-left: 0;
+}
+table tr td:last-child{
+    border-right: 0;
+}
+
+.endgame{
+    display: none;
+    width: 500px;
+    height: 300px;
+    top: 120px;
+    background-color: rgba(146, 168, 209,0.8);
+    position: absolute;
+    left: 39%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2em;
+    
+}
+
+.btn{
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    background: #FF6F61;
+    font-size: 20px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #0080ff;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: crimson;
+    background: none;
+}
+
+
